@@ -1,0 +1,123 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  width: 100%;
+  color: rgb(84, 89, 93);
+  font-size: 18px;
+  margin: 8px auto;
+}
+
+.card-container {
+  position: relative;
+  width: 300px;
+  height: 450px;
+  margin: auto;
+}
+
+.card {
+  margin: auto;
+  width: 300px;
+  height: 500px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.04), 0 12px 20px 0 rgba(0, 0, 0, 0.12);
+  position: absolute;
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-liked {
+  transform: translate(400px) rotate(50deg);
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.card-skipped {
+  transform: translate(-400px) rotate(-50deg);
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.image {
+  width: 100%;
+  height: 450px;
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
+}
+
+.info {
+  background: linear-gradient(
+    -180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  padding: 16px 12px;
+  border-radius: 0 16px 16px;
+}
+
+.name {
+  color: #fff;
+  text-align: left;
+  padding-left: 8px;
+  font-size: 16px;
+}
+
+.age,
+.prefecture,
+.percent {
+  margin-left: 8px;
+}
+
+.percent {
+  font-size: 12px;
+}
+
+.communities {
+  background: #fff;
+  text-align: left;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.community {
+  margin-right: 4px;
+  background-color: gray;
+  color: #00c4cc;
+  background-color: rgba(83, 183, 187, 0.1);
+  padding: 4px 12px;
+  border-radius: 12px;
+}
+
+.buttons {
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-like,
+.button-nope {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.04), 0 12px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+.button-like {
+  margin-left: 30px;
+}
