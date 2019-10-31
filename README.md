@@ -17,6 +17,9 @@ Web Front-end Team, Pairsのインターン選考の技術課題の回答例
 
 ## サンプルコード
 `create-react-app`で作成し、ejectしたサンプルコードです。
+
+![動作](sample-movie.gif)
+
 ### 動作推奨環境
 ```
 node v12.13.0
