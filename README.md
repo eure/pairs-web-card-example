@@ -37,3 +37,7 @@ npm v6.12.0
 ディレクトリ直下で`npm install`をして`node_modules`をインストールした後、
 
 `npm start`で起動して、[http://localhost:3000](http://localhost:3000)にアクセスしてください。
+
+デスクトップでスマホ画面を再現する場合、ブラウザの開発者ツールも用いてください。
+
+参考：[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/?hl=ja)
