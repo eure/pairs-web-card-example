@@ -17,9 +17,20 @@ Web Front-end Team, Pairsのインターン選考の技術課題の回答例
 
 ## サンプルコード
 `create-react-app`で作成し、ejectしたサンプルコードです。
+### 動作推奨環境
+```
+node v12.13.0
+npm v6.12.0
+```
 
-ローカルで確認するには、
+上記環境の構築には何を用いても問題ないです。
 
-このディレクトリ直下で`npm install`をして`node_modules`をインストールした後、
+[nodenv](https://github.com/nodenv/nodenv)や
+[nodebrew](https://github.com/hokaccha/nodebrew)を
+参照してください。
+
+### ローカル起動方法
+上記動作推奨環境を整えた後、
+ディレクトリ直下で`npm install`をして`node_modules`をインストールした後、
 
 `npm start`で起動して、[http://localhost:3000](http://localhost:3000)にアクセスしてください。
